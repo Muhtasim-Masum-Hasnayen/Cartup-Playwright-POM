@@ -1,0 +1,19 @@
+{
+  "name": "cartup-playwright-pom",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Professional Playwright POM end-to-end automation project for Cartup Bangladesh",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "report": "playwright show-report",
+    "test:cartup": "playwright test tests/cartup-shopping.spec.js --headed"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.55.0"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2"
+  }
+}
